@@ -1,14 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-         <loc>https://rhinosys.github.io/temp-pico-apple/Temp-apple-820-1893-A/</loc>
-         <lastmod>2022-12-17</lastmod>
-         <changefreq>daily</changefreq>
-         <xhtml:link rel="alternate" hreflang="en" href="https://rhinosys.github.io/temp-pico-apple/en/Temp-apple-820-1893-A/"/>
-         <xhtml:link rel="alternate" hreflang="fr" href="https://rhinosys.github.io/temp-pico-apple/fr/Temp-apple-820-1893-A/"/>
-         
-    </url>
-    <url>
          <loc>https://rhinosys.github.io/temp-pico-apple/</loc>
          <lastmod>2022-12-17</lastmod>
          <changefreq>daily</changefreq>
