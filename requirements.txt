@@ -5,4 +5,4 @@ pymdown-extensions
 mkdocs-static-i18n
 mkdocs-mermaid2-plugin
 mkdocs-encryptcontent-plugin
-#mkdocs-glightbox
+mkdocs-glightbox
