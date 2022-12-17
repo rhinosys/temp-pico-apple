@@ -1,8 +1,8 @@
-mkdocs-material==8.0.0b2
+mkdocs-material==9.0.0b1
 mkdocs-material-extensions
 pygments
 pymdown-extensions
 mkdocs-static-i18n
 mkdocs-mermaid2-plugin
 mkdocs-encryptcontent-plugin
-mkdocs-glightbox
+#mkdocs-glightbox
