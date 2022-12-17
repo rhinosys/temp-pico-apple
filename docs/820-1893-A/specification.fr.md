@@ -1,7 +1,7 @@
 # 820-1893-A
 
-![922-6559-UP](../../922-6559-face-A.jpeg){ data-title="Ambiance temp apple 922-6559-face-A".custom-desc1" }
-![922-6559-DOWN](../../922-6559-face-B.jpeg){ data-title="Ambiance temp apple 922-6559-face-B".custom-desc1" }
+![922-6559-UP](../../images/922-6559-face-A.jpeg){ data-title="Ambiance temp apple 922-6559-face-A".custom-desc1" }
+![922-6559-DOWN](../../images/922-6559-face-B.jpeg){ data-title="Ambiance temp apple 922-6559-face-B".custom-desc1" }
 
 
 922-6559  EEE Code:- [^1]
@@ -10,7 +10,7 @@ Power Mac G5, Power Mac G5 (June 2004), Power Mac G5 (Early 2005)
 
 
 
-[^2]```
+---- SOURCES --- [^2]
 Apple Computer
 Power Macintosh G5 2.0 GHz DP (PCI)
 Power Macintosh G5 2.3 GHz DP (PCI-X)
@@ -45,7 +45,7 @@ Compatible Apple Computer Family
 Power Mac G5 (June 2004)
 Power Mac G5 (Late 2004)
 Power Mac G5 (Early 2005)
-```
+
 
 [^1]: https://www.usedmac.com/products/922-6559
 [^2]: https://applepartsellers.com/product/922-6559-temperature-sensor-board-a1047-m9747ll-a-m9748ll-a-m9749ll-a-early-2005-a1047/
