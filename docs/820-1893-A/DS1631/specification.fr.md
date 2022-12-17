@@ -1,30 +1,9 @@
 # API REFRENCE TABLE
 
-# Keys inconnue.
+![ds1631](../../../images/DS1631-diagram.png){ data-title="chip ds1631".custom-desc1" }
 
-| **_Keys:_** | **_Value:_** |
-|:-----------:| :-----------:|
-| **_11_**| **_00000000_**|
-| **_920_**| **_00000000_**|
-| **_407_**| **_1_**|
-| **_938_**| **_0_**|
-| **_414_**| **_0_**|
-| **_415_**| **_0_**|
-
-
-## Chauffage Zone Jour
-
-| **_Keys:_** |
-|:-----------:|
-| **_349_**|
-
-| Type | Value |
-| -------------------- | ----------- |
-|Automatique (planning)|1|
-|Anticipé|32|
-|Forçage confort|17|
-|Forçage éco|18|
-|Forçage éco+|19|
-|Forçage éco++|20|
-|Forçage hors gel|21|
-|OFF|16|
+<div class="glightbox-desc custom-desc1">
+  <p> port 1</p>
+</div>
+<figcaption>ds1631. Credit: http://www.peyregne.info</figcaption>
+</figure>
