@@ -9,7 +9,7 @@
 </figure>
 
 
-## Definitation des entre/sortie [^1]
+## I/O [^1]
 
 | Nb PATTE | Description |
 | -------------------- | ----------- |
