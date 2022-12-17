@@ -1,7 +1,7 @@
 # 820-1893-A
 
-![922-6559-UP](../../images/922-6559-face-A.jpeg){ data-title="Ambiance temp apple 922-6559-face-A".custom-desc1" }
-![922-6559-DOWN](../../images/922-6559-face-B.jpeg){ data-title="Ambiance temp apple 922-6559-face-B".custom-desc1" }
+![922-6559-UP](../../images/922-6559-face-A.jpeg){ width="300", align=center, data-title="Ambiance temp apple 922-6559-face-A".custom-desc1" }
+![922-6559-DOWN](../../images/922-6559-face-B.jpeg){ width="300", align=center, data-title="Ambiance temp apple 922-6559-face-B".custom-desc1" }
 
 
 922-6559  EEE Code:- [^1]
