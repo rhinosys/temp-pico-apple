@@ -5,19 +5,19 @@
 <head>
 <meta charset="utf-8"/>
 <meta content="width=device-width,initial-scale=1" name="viewport"/>
-<link href="https://rhinosys.github.io/temp-pico-apple/fr/820-1893-A/DS1631/specification/" rel="canonical"/>
-<link href="../../../../assets/images/favicon.png" rel="icon"/>
+<link href="https://rhinosys.github.io/temp-pico-apple/Raspberry-PICO/specification/" rel="canonical"/>
+<link href="../../assets/images/favicon.png" rel="icon"/>
 <meta content="mkdocs-1.4.2, mkdocs-material-9.0.0b1" name="generator"/>
-<title>Description du composant ds1631 - Sensor Apple (820-1893-A) with Raspberry Pi PICO and python</title>
-<link href="../../../../assets/stylesheets/main.91872f81.min.css" rel="stylesheet"/>
-<link href="../../../../assets/stylesheets/palette.2505c338.min.css" rel="stylesheet"/>
+<title>Rasperry PICO - Sensor Apple (820-1893-A) with Raspberry Pi PICO and python</title>
+<link href="../../assets/stylesheets/main.91872f81.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.2505c338.min.css" rel="stylesheet"/>
 <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
 <link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
 <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
-<link href="../../../../css/termynal.css" rel="stylesheet"/>
-<link href="../../../../css/custom.css" rel="stylesheet"/>
-<script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
-<link href="../../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+<link href="../../css/termynal.css" rel="stylesheet"/>
+<link href="../../css/custom.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
             html.glightbox-open { overflow: initial; height: 100%; }
             .gslide-title { margin-top: 0px; user-select: text; }
             .gslide-desc { color: #666; user-select: text; }
@@ -28,13 +28,13 @@
                 body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
                 body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
                 body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
-                </style><script src="../../../../assets/javascripts/glightbox.min.js"></script></head>
+                </style><script src="../../assets/javascripts/glightbox.min.js"></script></head>
 <body data-md-color-accent="None" data-md-color-primary="None" data-md-color-scheme="default" dir="ltr">
 <input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
 <input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
 <label class="md-overlay" for="__drawer"></label>
 <div data-md-component="skip">
-<a class="md-skip" href="#description-du-composant-ds1631">
+<a class="md-skip" href="#rasperry-pico">
           Aller au contenu
         </a>
 </div>
@@ -42,7 +42,7 @@
 </div>
 <header class="md-header md-header--lifted" data-md-component="header">
 <nav aria-label="En-tête" class="md-header__inner md-grid">
-<a aria-label="Sensor Apple (820-1893-A) with Raspberry Pi PICO and python" class="md-header__button md-logo" data-md-component="logo" href="../../../" title="Sensor Apple (820-1893-A) with Raspberry Pi PICO and python">
+<a aria-label="Sensor Apple (820-1893-A) with Raspberry Pi PICO and python" class="md-header__button md-logo" data-md-component="logo" href="../.." title="Sensor Apple (820-1893-A) with Raspberry Pi PICO and python">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
 </a>
 <label class="md-header__button md-icon" for="__drawer">
@@ -58,9 +58,30 @@
 <div class="md-header__topic" data-md-component="header-topic">
 <span class="md-ellipsis">
             
-              Description du composant ds1631
+              Rasperry PICO
             
           </span>
+</div>
+</div>
+</div>
+<div class="md-header__option">
+<div class="md-select">
+<button aria-label="Sélectionner la langue" class="md-header__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12.87 15.07-2.54-2.51.03-.03A17.52 17.52 0 0 0 14.07 6H17V4h-7V2H8v2H1v2h11.17C11.5 7.92 10.44 9.75 9 11.35 8.07 10.32 7.3 9.19 6.69 8h-2c.73 1.63 1.73 3.17 2.98 4.56l-5.09 5.02L4 19l5-5 3.11 3.11.76-2.04M18.5 10h-2L12 22h2l1.12-3h4.75L21 22h2l-4.5-12m-2.62 7 1.62-4.33L19.12 17h-3.24Z"></path></svg>
+</button>
+<div class="md-select__inner">
+<ul class="md-select__list">
+<li class="md-select__item">
+<a class="md-select__link" href="../../" hreflang="fr">
+                    Français
+                  </a>
+</li>
+<li class="md-select__item">
+<a class="md-select__link" href="../../en/" hreflang="en">
+                    English
+                  </a>
+</li>
+</ul>
 </div>
 </div>
 </div>
@@ -99,17 +120,17 @@
 <div class="md-tabs__inner md-grid">
 <ul class="md-tabs__list">
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../../">
-      Index
+<a class="md-tabs__link" href="../..">
+      Home
     </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link md-tabs__link--active" href="../../specification/">
+<a class="md-tabs__link" href="../../820-1893-A/specification/">
         820 1893 A
       </a>
 </li>
 <li class="md-tabs__item">
-<a class="md-tabs__link" href="../../../Raspberry-PICO/specification/">
+<a class="md-tabs__link md-tabs__link--active" href="./">
         Raspberry PICO
       </a>
 </li>
@@ -125,19 +146,19 @@
 <div class="md-sidebar__inner">
 <nav aria-label="Navigation" class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" data-md-level="0">
 <label class="md-nav__title" for="__drawer">
-<a aria-label="Sensor Apple (820-1893-A) with Raspberry Pi PICO and python" class="md-nav__button md-logo" data-md-component="logo" href="../../../" title="Sensor Apple (820-1893-A) with Raspberry Pi PICO and python">
+<a aria-label="Sensor Apple (820-1893-A) with Raspberry Pi PICO and python" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="Sensor Apple (820-1893-A) with Raspberry Pi PICO and python">
 <svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
 </a>
     Sensor Apple (820-1893-A) with Raspberry Pi PICO and python
   </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../../">
-        Index
+<a class="md-nav__link" href="../..">
+        Home
       </a>
 </li>
-<li class="md-nav__item md-nav__item--active md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
+<li class="md-nav__item md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" id="__nav_2" type="checkbox"/>
 <label class="md-nav__link" for="__nav_2">
           820 1893 A
           <span class="md-nav__icon md-icon"></span>
@@ -149,12 +170,12 @@
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
 <li class="md-nav__item">
-<a class="md-nav__link" href="../../specification/">
+<a class="md-nav__link" href="../../820-1893-A/specification/">
         820-1893-A
       </a>
 </li>
-<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
-<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" id="__nav_2_2" type="checkbox"/>
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" id="__nav_2_2" type="checkbox"/>
 <label class="md-nav__link" for="__nav_2_2">
           DS1631
           <span class="md-nav__icon md-icon"></span>
@@ -165,25 +186,10 @@
           DS1631
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item md-nav__item--active">
-<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
-<label class="md-nav__link md-nav__link--active" for="__toc">
-          Description du composant ds1631
-          <span class="md-nav__icon md-icon"></span>
-</label>
-<a class="md-nav__link md-nav__link--active" href="./">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../820-1893-A/DS1631/specification/">
         Description du composant ds1631
       </a>
-<nav aria-label="{'permalink': True}" class="md-nav md-nav--secondary">
-<label class="md-nav__title" for="__toc">
-<span class="md-nav__icon md-icon"></span>
-      {'permalink': True}
-    </label>
-<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="#io-1">
-    I/O 1
-  </a>
 </li>
 </ul>
 </nav>
@@ -191,11 +197,8 @@
 </ul>
 </nav>
 </li>
-</ul>
-</nav>
-</li>
-<li class="md-nav__item md-nav__item--nested">
-<input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
+<li class="md-nav__item md-nav__item--active md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
 <label class="md-nav__link" for="__nav_3">
           Raspberry PICO
           <span class="md-nav__icon md-icon"></span>
@@ -206,8 +209,9 @@
           Raspberry PICO
         </label>
 <ul class="md-nav__list" data-md-scrollfix="">
-<li class="md-nav__item">
-<a class="md-nav__link" href="../../../Raspberry-PICO/specification/">
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<a class="md-nav__link md-nav__link--active" href="./">
         Rasperry PICO
       </a>
 </li>
@@ -221,63 +225,8 @@
 </div>
 <div class="md-content" data-md-component="content">
 <article class="md-content__inner md-typeset">
-<h1 id="description-du-composant-ds1631">Description du composant ds1631<a class="headerlink" href="#description-du-composant-ds1631" title="Permanent link">¶</a></h1>
-<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-title="chip ds1631" data-width="100%" href="../../../images/DS1631-diagram.png"><img alt="ds1631" class='custom-desc1"' data-title="chip ds1631" src="../../../images/DS1631-diagram.png"/></a></p>
-<div class="glightbox-desc custom-desc1">
-<p> IC2</p>
-</div>
-<figcaption>ds1631. Credit: http://www.peyregne.info</figcaption>
-<h2 id="io-1">I/O <sup id="fnref:1"><a class="footnote-ref" href="#fn:1">1</a></sup><a class="headerlink" href="#io-1" title="Permanent link">¶</a></h2>
-<table>
-<thead>
-<tr>
-<th>Nb PATTE</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1 (SDA)</td>
-<td>SDA ---</td>
-</tr>
-<tr>
-<td>2 (SCL)</td>
-<td>SCL</td>
-</tr>
-<tr>
-<td>3 (T - out)</td>
-<td>Temp read</td>
-</tr>
-<tr>
-<td>4 (GND)</td>
-<td></td>
-</tr>
-<tr>
-<td>5 (A 2)</td>
-<td></td>
-</tr>
-<tr>
-<td>6 (A 1)</td>
-<td></td>
-</tr>
-<tr>
-<td>7 (A 1)</td>
-<td></td>
-</tr>
-<tr>
-<td>8 (GND)</td>
-<td>Ground</td>
-</tr>
-</tbody>
-</table>
-<div class="footnote">
-<hr/>
-<ol>
-<li id="fn:1">
-<p>http://www.peyregne.info/capteur-de-temperature-ds1631-et-arduino.html <a class="footnote-backref" href="#fnref:1" title="Jump back to footnote 1 in the text">↩</a></p>
-</li>
-</ol>
-</div>
+<h1 id="rasperry-pico">Rasperry PICO<a class="headerlink" href="#rasperry-pico" title="Permanent link">¶</a></h1>
+<p><a class="glightbox" data-desc-position="bottom" data-height="auto" data-title="Raspberry PICO pin out" data-width="100%" href="../../images/raspberry_pi_Pico-R3-Pinout-narrow.png"><img _="," align="center," alt="Rasperry PICO" data-title="Raspberry PICO pin out" src="../../images/raspberry_pi_Pico-R3-Pinout-narrow.png" width="300"/></a></p>
 </article>
 </div>
 <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
@@ -301,8 +250,8 @@
 <div class="md-dialog" data-md-component="dialog">
 <div class="md-dialog__inner md-typeset"></div>
 </div>
-<script id="__config" type="application/json">{"base": "../../../..", "features": ["toc.integrate", "navigation.instant", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "content.tabs.link"], "search": "../../../../assets/javascripts/workers/search.cd82efe4.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
-<script src="../../../../assets/javascripts/bundle.7dfa1ad6.min.js"></script>
+<script id="__config" type="application/json">{"base": "../..", "features": ["toc.integrate", "navigation.instant", "navigation.sections", "navigation.tabs", "navigation.tabs.sticky", "content.tabs.link"], "search": "../../assets/javascripts/workers/search.cd82efe4.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
+<script src="../../assets/javascripts/bundle.7dfa1ad6.min.js"></script>
 <script src="https://unpkg.com/mermaid@8.6.4/dist/mermaid.min.js"></script>
 <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
 </html>
