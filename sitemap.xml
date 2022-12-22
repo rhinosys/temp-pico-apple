@@ -2,15 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
          <loc>https://rhinosys.github.io/temp-pico-apple/</loc>
-         <lastmod>2022-12-18</lastmod>
+         <lastmod>2022-12-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://rhinosys.github.io/temp-pico-apple/en/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://rhinosys.github.io/temp-pico-apple/fr/"/>
          
     </url>
     <url>
+         <loc>https://rhinosys.github.io/temp-pico-apple/820-1893-A/scema/</loc>
+         <lastmod>2022-12-22</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://rhinosys.github.io/temp-pico-apple/en/820-1893-A/scema/"/>
+         <xhtml:link rel="alternate" hreflang="fr" href="https://rhinosys.github.io/temp-pico-apple/fr/820-1893-A/scema/"/>
+         
+    </url>
+    <url>
          <loc>https://rhinosys.github.io/temp-pico-apple/820-1893-A/specification/</loc>
-         <lastmod>2022-12-18</lastmod>
+         <lastmod>2022-12-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://rhinosys.github.io/temp-pico-apple/en/820-1893-A/specification/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://rhinosys.github.io/temp-pico-apple/fr/820-1893-A/specification/"/>
@@ -18,7 +26,7 @@
     </url>
     <url>
          <loc>https://rhinosys.github.io/temp-pico-apple/820-1893-A/DS1631/specification/</loc>
-         <lastmod>2022-12-18</lastmod>
+         <lastmod>2022-12-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://rhinosys.github.io/temp-pico-apple/en/820-1893-A/DS1631/specification/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://rhinosys.github.io/temp-pico-apple/fr/820-1893-A/DS1631/specification/"/>
@@ -26,10 +34,18 @@
     </url>
     <url>
          <loc>https://rhinosys.github.io/temp-pico-apple/Raspberry-PICO/specification/</loc>
-         <lastmod>2022-12-18</lastmod>
+         <lastmod>2022-12-22</lastmod>
          <changefreq>daily</changefreq>
          <xhtml:link rel="alternate" hreflang="en" href="https://rhinosys.github.io/temp-pico-apple/en/Raspberry-PICO/specification/"/>
          <xhtml:link rel="alternate" hreflang="fr" href="https://rhinosys.github.io/temp-pico-apple/fr/Raspberry-PICO/specification/"/>
+         
+    </url>
+    <url>
+         <loc>https://rhinosys.github.io/temp-pico-apple/montage/montage/</loc>
+         <lastmod>2022-12-22</lastmod>
+         <changefreq>daily</changefreq>
+         <xhtml:link rel="alternate" hreflang="en" href="https://rhinosys.github.io/temp-pico-apple/en/montage/montage/"/>
+         <xhtml:link rel="alternate" hreflang="fr" href="https://rhinosys.github.io/temp-pico-apple/fr/montage/montage/"/>
          
     </url>
 </urlset>
