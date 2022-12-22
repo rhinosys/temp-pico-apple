@@ -1,0 +1,350 @@
+
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Generator: Adobe Illustrator 16.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg
+   id="svg2"
+   xml:space="preserve"
+   y="0px"
+   width="0.4in"
+   viewBox="0 0 28.8 23.76"
+   x="0px"
+   gorn="0"
+   height="0.33in"
+   version="1.1"
+   sodipodi:docname="DS1631Z_b4fbf5c8ac790b4fc3c10eb7d4b44826_1_breadboard.svg"
+   inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+   id="defs155" /><sodipodi:namedview
+   id="namedview153"
+   pagecolor="#505050"
+   bordercolor="#eeeeee"
+   borderopacity="1"
+   inkscape:showpageshadow="0"
+   inkscape:pageopacity="0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#505050"
+   inkscape:document-units="in"
+   showgrid="false"
+   inkscape:zoom="25.031565"
+   inkscape:cx="19.195764"
+   inkscape:cy="15.840001"
+   inkscape:window-width="1463"
+   inkscape:window-height="971"
+   inkscape:window-x="93"
+   inkscape:window-y="25"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="g149" />
+    <desc
+   id="desc99">
+        <referenceFile>TMP01.svg</referenceFile>
+    </desc>
+    <g
+   id="breadboard"
+   gorn="0.0">
+        <rect
+   id="connector0pin"
+   y="20.636"
+   width="2.16"
+   x="2.52"
+   gorn="0.0.0"
+   height="3.124"
+   fill="#8C8C8C" />
+        <rect
+   id="connector1pin"
+   y="20.636"
+   width="2.16"
+   x="9.72"
+   gorn="0.0.1"
+   height="3.124"
+   fill="#8C8C8C" />
+        <rect
+   id="connector2pin"
+   y="20.636"
+   width="2.16"
+   x="16.919"
+   gorn="0.0.2"
+   height="3.124"
+   fill="#8C8C8C" />
+        <rect
+   id="connector3pin"
+   y="20.636"
+   width="2.159"
+   x="24.121"
+   gorn="0.0.3"
+   height="3.124"
+   fill="#8C8C8C" />
+        <rect
+   id="connector4pin"
+   width="2.159"
+   x="24.121"
+   gorn="0.0.4"
+   height="3.125"
+   fill="#8C8C8C" />
+        <rect
+   id="connector5pin"
+   width="2.16"
+   x="16.919"
+   gorn="0.0.5"
+   height="3.125"
+   fill="#8C8C8C" />
+        <rect
+   id="connector6pin"
+   width="2.16"
+   x="9.72"
+   gorn="0.0.6"
+   height="3.125"
+   fill="#8C8C8C" />
+        <rect
+   id="connector7pin"
+   width="2.16"
+   x="2.52"
+   gorn="0.0.7"
+   height="3.125"
+   fill="#8C8C8C" />
+        <rect
+   id="connector0terminal"
+   y="21.601"
+   width="2.16"
+   x="2.52"
+   gorn="0.0.8"
+   height="2.159"
+   fill="#8C8C8C" />
+        <rect
+   id="connector1terminal"
+   y="21.601"
+   width="2.16"
+   x="9.72"
+   gorn="0.0.9"
+   height="2.159"
+   fill="#8C8C8C" />
+        <rect
+   id="connector2terminal"
+   y="21.601"
+   width="2.16"
+   x="16.919"
+   gorn="0.0.10"
+   height="2.159"
+   fill="#8C8C8C" />
+        <rect
+   id="connector3terminal"
+   y="21.601"
+   width="2.159"
+   x="24.121"
+   gorn="0.0.11"
+   height="2.159"
+   fill="#8C8C8C" />
+        <rect
+   id="connector4terminal"
+   width="2.159"
+   x="24.121"
+   gorn="0.0.12"
+   height="2.16"
+   fill="#8C8C8C" />
+        <rect
+   id="connector5terminal"
+   width="2.16"
+   x="16.919"
+   gorn="0.0.13"
+   height="2.16"
+   fill="#8C8C8C" />
+        <rect
+   id="connector6terminal"
+   width="2.16"
+   x="9.72"
+   gorn="0.0.14"
+   height="2.16"
+   fill="#8C8C8C" />
+        <rect
+   id="connector7terminal"
+   width="2.16"
+   x="2.52"
+   gorn="0.0.15"
+   height="2.16"
+   fill="#8C8C8C" />
+        <rect
+   id="rect20"
+   y="18.95"
+   width="2.16"
+   x="2.52"
+   gorn="0.0.16"
+   height="4.81"
+   fill="#8C8C8C" />
+        <rect
+   id="rect22"
+   y="18.95"
+   width="2.16"
+   x="9.72"
+   gorn="0.0.17"
+   height="4.81"
+   fill="#8C8C8C" />
+        <rect
+   id="rect24"
+   y="18.95"
+   width="2.16"
+   x="16.919"
+   gorn="0.0.18"
+   height="4.81"
+   fill="#8C8C8C" />
+        <rect
+   id="rect26"
+   y="18.95"
+   width="2.159"
+   x="24.121"
+   gorn="0.0.19"
+   height="4.81"
+   fill="#8C8C8C" />
+        <rect
+   id="rect28"
+   width="2.16"
+   x="2.52"
+   gorn="0.0.20"
+   height="4.81"
+   fill="#8C8C8C" />
+        <rect
+   id="rect30"
+   width="2.16"
+   x="9.72"
+   gorn="0.0.21"
+   height="4.81"
+   fill="#8C8C8C" />
+        <rect
+   id="rect32"
+   width="2.16"
+   x="16.919"
+   gorn="0.0.22"
+   height="4.81"
+   fill="#8C8C8C" />
+        <rect
+   id="rect34"
+   width="2.159"
+   x="24.121"
+   gorn="0.0.23"
+   height="4.81"
+   fill="#8C8C8C" />
+        <polygon
+   id="polygon36"
+   points="0,2.16 28.8,2.16 28.259,8.28 0,8.28 "
+   gorn="0.0.24"
+   fill="#3D3D3D" />
+        <polygon
+   id="polygon38"
+   points="0,15.479 28.259,15.479 28.8,21.601 0,21.601 "
+   gorn="0.0.25" />
+        <polygon
+   id="polygon40"
+   points="6.12,3.125 6.12,2.347 4.68,1.685 2.52,1.685 2.52,3.125 "
+   gorn="0.0.26"
+   fill="#8C8C8C" />
+        <polygon
+   id="polygon42"
+   points="13.32,3.125 13.32,2.347 11.88,1.685 9.72,1.685 8.28,2.347 8.28,3.125 "
+   gorn="0.0.27"
+   fill="#8C8C8C" />
+        <polygon
+   id="polygon44"
+   points="26.28,3.125 26.28,1.685 24.121,1.685 22.68,2.347 22.68,3.125 "
+   gorn="0.0.28"
+   fill="#8C8C8C" />
+        <polygon
+   id="polygon46"
+   points="20.52,3.125 20.52,2.347 19.08,1.685 16.919,1.685 15.48,2.347 15.48,3.125 "
+   gorn="0.0.29"
+   fill="#8C8C8C" />
+        <polygon
+   id="polygon48"
+   points="2.52,20.636 2.52,22.075 4.68,22.075 6.12,21.413 6.12,20.636 "
+   gorn="0.0.30"
+   fill="#8C8C8C" />
+        <polygon
+   id="polygon50"
+   points="22.68,20.636 22.68,21.413 24.121,22.075 26.28,22.075 26.28,20.636 "
+   gorn="0.0.31"
+   fill="#8C8C8C" />
+        <polygon
+   id="polygon52"
+   points="8.28,20.636 8.28,21.413 9.72,22.075 11.88,22.075 13.32,21.413 13.32,20.636 "
+   gorn="0.0.32"
+   fill="#8C8C8C" />
+        <polygon
+   id="polygon54"
+   points="15.48,20.636 15.48,21.413 16.919,22.075 19.08,22.075 20.52,21.413 20.52,20.636 "
+   gorn="0.0.33"
+   fill="#8C8C8C" />
+        <polygon
+   id="polygon56"
+   points="28.8,2.16 28.259,3.931 27.253,3.931 27.253,19.821 28.259,19.829 28.8,21.601 "
+   gorn="0.0.34"
+   fill="#141414" />
+        <polygon
+   id="polygon58"
+   points="0,2.16 0.54,3.931 0.54,8.28 3.6,8.28 3.6,15.479 0.54,15.479 0.54,19.829 0,21.601 "
+   gorn="0.0.35"
+   fill="#1F1F1F" />
+        <polygon
+   id="polygon60"
+   points="3.6,8.28 0.54,8.251 0.403,9.777 0.403,11.873 3.6,11.873 "
+   gorn="0.0.36"
+   fill="#1C1C1C" />
+        <polygon
+   id="polygon62"
+   points="0.54,15.517 3.6,15.517 3.6,11.873 0.403,11.873 0.403,13.981 "
+   gorn="0.0.37"
+   fill="#383838" />
+        <path
+   id="path64"
+   d="M0.54,3.931v4.313c1.713,0.324,3.017,1.821,3.017,3.629c0,1.808-1.296,3.312-3.017,3.636v4.313h27.719V3.931H0.54z"
+   gorn="0.0.38"
+   fill="#303030" />
+        <path
+   id="path66"
+   d="M0.403,9.777v4.199c1.058-0.123,1.886-1.009,1.886-2.104C2.289,10.777,1.469,9.9,0.403,9.777z"
+   gorn="0.0.39"
+   fill="#262626" />
+        <circle
+   id="circle68"
+   cy="16.898"
+   r="1.483"
+   cx="4.68"
+   gorn="0.0.40"
+   fill="#212121" />
+        <g
+   id="ADI_Logo"
+   gorn="0.0.41">
+            <rect
+   id="_x30_.5.0"
+   y="5.837"
+   width="4.94"
+   x="4.78"
+   gorn="0.0.41.0"
+   height="4.98"
+   fill="#A6A395" />
+            <polygon
+   id="_x30_.5.1"
+   points="5.57,10.197 5.57,6.461 9.125,8.345 "
+   gorn="0.0.41.1"
+   fill="#3D3D3D" />
+        </g>
+        <g
+   transform="matrix(0 1 -1 0 16.8022 8.6499)"
+   id="g149">
+            <g
+   id="_x30_.6"
+   gorn="0.0.42.0">
+                <g
+   transform="matrix(0 -1 1 0 1.127 6.0019)"
+   id="g146">
+                    <text
+   id="_x30_.6.0"
+   font-family="ArialMT"
+   font-size="4px"
+   gorn="0.0.42.0.0.0"
+   fill="#a69595">DS1631Z</text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module fritzingVersion="0.9.10b.2022-07-01.CD-2134-0-40d23c29" icon="Mine.png">
+    <title>My Parts</title>
+    <instances>
+        <instance moduleIdRef="AnalogDevices_TMP01FPZ" modelIndex="6089" path="/Applications/Fritzing.app/Contents/Resources/fritzing-parts/core/ADI_TMP01.AnalogDevices_TMP01FPZ.fzp">
+            <views/>
+        </instance>
+        <instance moduleIdRef="prefix0000-DS1631_0bf1856c5518dcce55c159332ae09ae7_1" modelIndex="6097" path="/Users/nrineau/Documents/Fritzing/parts/user/prefix0000-DS1631_0bf1856c5518dcce55c159332ae09ae7_1.fzp">
+            <views/>
+        </instance>
+    </instances>
+</module>

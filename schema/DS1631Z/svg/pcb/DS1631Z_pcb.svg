@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg"  id="0" width="0.42in" baseProfile="tiny" viewBox="0 0 420 420" gorn="0" height="0.42in" version="1.2">
+    <desc  id="0.0">
+        <referenceFile  id="0.0.0">dip_8_300mil_pcb.svg</referenceFile>
+    </desc>
+    <desc  id="0.1">Fritzing footprint SVG</desc>
+    <g  id="silkscreen" gorn="0.2">
+        <line stroke-width="10"  stroke="white" x2="10" id="0.2.0" y1="10" y2="410" gorn="0.2.0" x1="10"/>
+        <line stroke-width="10"  stroke="white" x2="410" id="0.2.1" y1="410" y2="410" gorn="0.2.1" x1="10"/>
+        <line stroke-width="10"  stroke="white" x2="410" id="0.2.2" y1="410" y2="10" gorn="0.2.2" x1="410"/>
+        <line stroke-width="10"  stroke="white" x2="160" id="0.2.3" y1="10" y2="10" gorn="0.2.3" x1="10"/>
+        <line stroke-width="10"  stroke="white" x2="410" id="0.2.4" y1="10" y2="10" gorn="0.2.4" x1="260"/>
+    </g>
+    <g  id="copper1" gorn="0.3">
+        <g  id="copper0" gorn="0.3.0">
+            <rect stroke-width="20"  stroke="rgb(255, 191, 0)" id="square" y="32.5" width="55" x="32.5" gorn="0.3.0.0" height="55" fill="none"/>
+            <circle stroke-width="20"  stroke="rgb(255, 191, 0)" id="connector0pad" cy="60" r="27.5" cx="60" gorn="0.3.0.1" fill="none"/>
+            <circle stroke-width="20"  stroke="rgb(255, 191, 0)" id="connector7pad" cy="60" r="27.5" cx="360" gorn="0.3.0.2" fill="none"/>
+            <circle stroke-width="20"  stroke="rgb(255, 191, 0)" id="connector1pad" cy="160" r="27.5" cx="60" gorn="0.3.0.3" fill="none"/>
+            <circle stroke-width="20"  stroke="rgb(255, 191, 0)" id="connector6pad" cy="160" r="27.5" cx="360" gorn="0.3.0.4" fill="none"/>
+            <circle stroke-width="20"  stroke="rgb(255, 191, 0)" id="connector2pad" cy="260" r="27.5" cx="60" gorn="0.3.0.5" fill="none"/>
+            <circle stroke-width="20"  stroke="rgb(255, 191, 0)" id="connector5pad" cy="260" r="27.5" cx="360" gorn="0.3.0.6" fill="none"/>
+            <circle stroke-width="20"  stroke="rgb(255, 191, 0)" id="connector3pad" cy="360" r="27.5" cx="60" gorn="0.3.0.7" fill="none"/>
+            <circle stroke-width="20"  stroke="rgb(255, 191, 0)" id="connector4pad" cy="360" r="27.5" cx="360" gorn="0.3.0.8" fill="none"/>
+        </g>
+    </g>
+</svg>
